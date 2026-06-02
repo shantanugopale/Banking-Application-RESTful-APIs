@@ -12,6 +12,7 @@ class BankingAppApplicationTests {
 
 	public void testMethod() {
 		String text = null;
-		System.out.println(text.length()); // Intentional NullPointerException risk
+		System.out.println(text.length()); 
+		// Intentional NullPointerException risk
 	}
 }
