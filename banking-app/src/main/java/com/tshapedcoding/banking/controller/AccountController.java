@@ -36,7 +36,7 @@ public class AccountController {
         return ResponseEntity.ok(accountDto);
     }
 
-//    Deposit REST API
+//    Deposit REST API - main api
 //    http://localhost:8080/api/accounts/1/deposit
     @PutMapping("{id}/deposit")
     public ResponseEntity<AccountDto> deposit(@PathVariable Long id,@RequestBody Map<String, Double> request)

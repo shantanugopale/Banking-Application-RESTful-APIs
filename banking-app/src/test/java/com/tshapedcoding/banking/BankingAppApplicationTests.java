@@ -10,4 +10,9 @@ class BankingAppApplicationTests {
 	void contextLoads() {
 	}
 
+	public void testMethod() {
+		String text = null;
+		System.out.println(text.length()); 
+		// Intentional NullPointerException risk
+	}
 }
