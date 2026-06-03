@@ -73,7 +73,6 @@ public class AccountController {
     public ResponseEntity<String> deleteById(@PathVariable Long id)
     {
         accountService.deleteAccountById(id);
-        return ResponseEntity.ok("Account is Deleted Successfully");
     }
 
 }
